@@ -1,27 +1,44 @@
 import React from 'react'
 import PineappleLogo from '../icons/pineapple-logo.png'
 
+class HeaderAction extends React.Component {
+  render () {
+    return (
+      <div class='row'>
+        <div class='col m4 s0'>
+        </div>
+        <div class='col m8 s12'>
+          <div class='row'>
+            <div class='col s3'>
+              Our product
+            </div>
+            <div class='col s2'>
+              Blog
+            </div>
+            <div class='col s3'>
+              Our product
+            </div>
+            <div class='col s4'>
+              <button>
+                Try for free
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    )
+  }
+}
+
 class Header extends React.Component {
   render () {
     return (
       <div class='row'>
-        <div class='col-xs-2'>
-          <img class='logo' src={PineappleLogo} />
+        <div class='col m2 s4'>
+          <img class='responsive-img' src={PineappleLogo} />
         </div>
-        <div class='col-xs-10'>
-          <div class='row'>
-            <div class='col-xs-6' />
-            <div class='col-xs-6'>
-              <div class='row'>
-                <div class='col-xs-4'>Our product</div>
-                <div class='col-xs-2'>Blog</div>
-                <div class='col-xs-2'>Pricing</div>
-                <div class='col-xs-4 try-for-free-btn'>
-                  Try for free
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class='col m10 s8'>
+          <HeaderAction />
         </div>
       </div>
     )
