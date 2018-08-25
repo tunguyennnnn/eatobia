@@ -23,7 +23,6 @@ export default class Customer extends React.Component {
                 <span>Online ordering integrated on <br /> your website</span>
               </div>
             </div>
-            <br />
             <div class='customer-check'>
               <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
               <div style={{display: 'inline-block'}} ><span>Create your custome app</span></div>

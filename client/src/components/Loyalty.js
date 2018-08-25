@@ -19,11 +19,12 @@ export default class Loyalty extends React.Component {
             <p class='loyalty-marketing-text'>Easy marketing with Wifi-program</p>
             <br />
             <div class='customer-check'>
-              <i style={{verticalAlign: 'middle', paddingBottom: '35px'}} class='medium material-icons'>check_circle</i>
+              <i style={{verticalAlign: 'middle'}} class='medium material-icons'>check_circle</i>
               <div style={{display: 'inline-block'}}>
                 <span>Collect customer information <br />(Facebook,Instagram& Email)</span>
               </div>
             </div>
+            <br />
             <div class='customer-check'>
               <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
               <div style={{display: 'inline-block'}}>

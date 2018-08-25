@@ -1,0 +1,73 @@
+.request-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.request-header {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.request-text-container {
+  padding: 5%;
+}
+
+.request-form-container {
+  label {
+    font-weight: 300;
+    color: black;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .request-page {
+    height: 550px;
+  }
+
+  .request-header {
+    font-size: 7.5vw;
+  }
+
+  .request-form-container {
+    label {
+      font-size: 5vw;
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .request-page {
+    height: 550px;
+  }
+
+  .request-header {
+    font-size: 7.5vw;
+  }
+
+  .request-form-container {
+    label {
+      font-size: 5vw;
+    }
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .request-page {
+    height: 980px;
+  }
+  .request-header {
+    font-size: 4vw;
+  }
+
+  .request-form-container {
+    label {
+      font-size: 3vw;
+    }
+  }
+}
+
+/* code that is here will apply to any screen size */

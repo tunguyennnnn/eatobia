@@ -8,6 +8,7 @@ import './styles/style.css'
 import './styles/customer.scss'
 import './styles/loyalty.scss'
 import './styles/tracking.scss'
+import './styles/request.scss'
 
 ReactDom.render(
   <Router>
