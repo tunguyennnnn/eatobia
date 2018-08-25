@@ -1,11 +1,12 @@
 import React from 'react'
 import PineappleBkgd from '../icons/pexels-photo-165776.jpeg'
+import Screen from '../icons/splash-screen_boustan.png'
 
 const styleBackground = {
-  backgroundImage: `url(${PineappleBkgd})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
+  backgroundImage: `url(${Screen}), url(${PineappleBkgd})`,
+  backgroundPosition: '30px 180px, center',
+  backgroundRepeat: 'no-repeat, no-repeat',
+  backgroundSize: '800px 800px, cover',
   height: '980px'
 }
 

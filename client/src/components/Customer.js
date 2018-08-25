@@ -1,11 +1,12 @@
 import React from 'react'
 import PineappleBkgd from '../icons/pexels-photo-174671.jpeg'
+import OnlineOrder from '../icons/online-ordering-system-multi-device-656804e619.png'
 
 const styleBackground = {
-  backgroundImage: `url(${PineappleBkgd})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
+  backgroundImage: `url(${OnlineOrder}), url(${PineappleBkgd})`,
+  backgroundPosition: '600px 300px, center',
+  backgroundRepeat: 'no-repeat, no-repeat',
+  backgroundSize: '800px 500px, cover',
   height: '980px'
 }
 
