@@ -37,7 +37,6 @@ export default class Request extends React.Component {
             <br />
             <div>
               <a class="waves-effect waves-light btn indigo darken-4 btn-large" style={{position: 'absolute', top: '575px'}}>Request demo</a>
-              <img src={PineappleLogo} style={{paddingLeft: '140px', position: 'absolute', top: '485px'}}/>
             </div>
           </form>
         </div>

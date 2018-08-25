@@ -1,0 +1,79 @@
+.tracking-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+.tracking-text {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.tracking-marketing-text {
+  text-align: center;
+  color: grey;
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+  .tracking-page {
+    background-position: -1000px;
+    background-color: #F5F5F5;
+    height: 400px;
+  }
+
+  .tracking-text-container {
+    padding: 5%;
+  }
+
+  .tracking-text {
+    font-size: 7.5vw;
+  }
+
+  .tracking-marketing-text {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .tracking-page {
+    background-position: -1000px;
+    background-color: #F5F5F5;
+    height: 400px;
+  }
+
+  .tracking-text-container {
+    padding: 5%;
+  }
+
+  .tracking-text {
+    font-size: 7.5vw;
+  }
+
+  .tracking-marketing-text {
+    font-size: 5vw;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .tracking-page {
+    height: 980px;
+  }
+
+  .tracking-text-container {
+    padding: 10%;
+  }
+
+  .tracking-text {
+    font-size: 4.5vw;
+  }
+
+  .tracking-marketing-text {
+    font-size: 3vw;
+  }
+}
+
+/* code that is here will apply to any screen size */

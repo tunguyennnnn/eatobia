@@ -6,6 +6,8 @@ import {BrowserRouter as Router} from 'react-router-dom'
 import App from './App'
 import './styles/style.css'
 import './styles/customer.scss'
+import './styles/loyalty.scss'
+import './styles/tracking.scss'
 
 ReactDom.render(
   <Router>

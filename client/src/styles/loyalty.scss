@@ -1,0 +1,94 @@
+.loyalty-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.loyalty-text {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.loyalty-marketing-text {
+  color: grey;
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 480px) {
+
+  .loyalty-image {
+    display: none;
+  }
+
+  .loyalty-page {
+    height: 600px;
+  }
+
+  .loyalty-text {
+    font-size: 8vw;
+  }
+
+  .loyalty-marketing-text {
+    font-size: 5vw;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .loyalty-image {
+    display: none;
+  }
+  .loyalty-page {
+    height: 600px;
+  }
+
+  .loyalty-text {
+    font-size: 8vw;
+  }
+
+  .loyalty-marketing-text {
+    font-size: 5vw;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .loyalty-page {
+    height: 980px;
+  }
+
+  .loyalty-image {
+    position: absolute;
+    height: 600px;
+    bottom: 0;
+  }
+
+  .loyalty-text {
+    font-size: 5vw;
+  }
+
+  .loyalty-marketing-text {
+    font-size: 3vw;
+  }
+
+  .loyalty-page {
+    height: 980px;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+  }
+}
+
+/* code that is here will apply to any screen size */

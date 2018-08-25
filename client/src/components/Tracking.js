@@ -2,41 +2,39 @@ import React from 'react'
 import PineappleBkgd from '../icons/pexels-photo-915016.jpeg'
 
 const styleBackground = {
-  backgroundImage: `url(${PineappleBkgd})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  height: '980px'
+  backgroundImage: `url(${PineappleBkgd})`
 }
 
 export default class Tracking extends React.Component {
   render () {
     return (
-      <div class='tracking-page' style={styleBackground}>
-        <div style={{position: 'absolute', right: '5%', marginTop: '70px'}}>
-          <h1>Tracking & Automation</h1>
-          <div style={{textAlign: 'center', fontSize: '2.28rem'}}>
-            <span style={{textAlign: 'center', color: 'grey'}}>Automated email marketing</span>
-          </div>
-          <br />
-          <div>
-            <i style={{verticalAlign: 'middle'}} class="medium material-icons">check_circle</i>
-            <span style={{fontSize: '18px', fontWeight: '500', marginLeft: '20px'}}>TRACK YOUR CUSTOMER WALKTHROUGH RATE</span>
-          </div>
-          <br />
-          <div>
-            <i style={{verticalAlign: 'middle'}} class="medium material-icons">check_circle</i>
-            <span style={{fontSize: '18px', fontWeight: '500', marginLeft: '20px'}}>AUTOMATED FACEBOOK LIKES</span>
-          </div>
-          <br />
-          <div>
-            <i style={{verticalAlign: 'middle'}} class="medium material-icons">check_circle</i>
-            <span style={{fontSize: '18px', fontWeight: '500', marginLeft: '20px'}}>AUTOMATED INSTAGRAM FOLLOWERS</span>
-          </div>
-          <br />
-          <div>
-            <i style={{verticalAlign: 'middle'}} class="medium material-icons">check_circle</i>
-            <span style={{fontSize: '18px', fontWeight: '500', marginLeft: '20px'}}>IMPROVEMENT ON CUSTOMER RATINGS</span>
+      <div class='tracking-page row' style={styleBackground}>
+        <div class='col m5 s0'></div>
+        <div class='col m7 s12'>
+          <div class='tracking-text-container'>
+            <p class='tracking-text'>Tracking & Automation</p>
+            <p class='tracking-marketing-text'>Automated email marketing</p>
+            <br />
+            <div class='customer-check'>
+              <i style={{verticalAlign: 'middle', paddingBottom: '10px'}} class='medium material-icons'>check_circle</i>
+              <div style={{display: 'inline-block'}}>
+                <span>Track your customer walkthrough rate</span>
+              </div>
+            </div>
+            <div class='customer-check'>
+              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+              <div style={{display: 'inline-block'}}>
+                <span>Automated  Facebook likes</span>
+              </div>
+            </div>
+            <br />
+            <div class='customer-check'>
+              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+              <div style={{display: 'inline-block'}}>
+                <span>Automated  Instagram followers</span>
+              </div>
+            </div>
+            <br />
           </div>
         </div>
       </div>
