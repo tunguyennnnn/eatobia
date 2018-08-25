@@ -66,6 +66,8 @@ module.exports = {
   ],
   devtool: 'inline-source-map',
   devServer: {
+    port: 9000,
+    host: '192.168.0.152',
     historyApiFallback: true,
     contentBase: OUTPUT_DIR,
     stats: {

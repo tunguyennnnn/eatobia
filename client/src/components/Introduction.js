@@ -2,31 +2,25 @@ import React from 'react'
 import PineappleLogo from '../icons/pineapple-logo.png'
 import PineappleBkgd from '../icons/pexels-photo-139259.jpeg'
 
-const styleBackground = {
-  backgroundImage: `url(${PineappleBkgd})`,
-  backgroundPosition: 'center',
-  backgroundRepeat: 'no-repeat',
-  backgroundSize: 'cover',
-  height: '980px'
-}
-
 class HeaderAction extends React.Component {
   render () {
     return (
-      <div class='row indigo-text text-darken-4'>
-        <div class='col s1 m2'>
-        </div>
-        <div class='col s3 m4'>
-          <span>Our Product</span><i class="small material-icons">expand_more</i>
-        </div>
-        <div class='col s1 m1'>
-          <span>Blog</span>
-        </div>
-        <div class='col s2 m2'>
-          <span>Pricing</span>
-        </div>
-        <div class='col s5 m3'>
-          <a class="waves-effect waves-light btn indigo darken-4 btn-large">Try for free</a>
+      <div class='indigo-text text-darken-4 bottom-align header-text' style={{position: 'relative', height: '12vw'}}>
+        <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
+          <div class='col s1 m2'>
+          </div>
+          <div class='col s3 m3'>
+            <span>Our Product</span>
+          </div>
+          <div class='col s2 m2'>
+            <span>Blog</span>
+          </div>
+          <div class='col s2 m2'>
+            <span>Pricing</span>
+          </div>
+          <div class='col s3 m3 center-align' style={{background: '#1a237e', border: 'solid 0', borderRadius: 5, color: 'white', padding: '1vw'}}>
+            Try For Free
+          </div>
         </div>
       </div>
     )
@@ -37,11 +31,11 @@ class Header extends React.Component {
   render () {
     return (
       <div class='row'>
-        <div class='col m5 s12'>
-          <img style={{width: 150}} src={PineappleLogo} />
-          <div style={{color: 'white', fontWeight: 'bold', display: 'inline-block', position: 'absolute', top: '70px', left: '140px'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
+        <div class='col m4 s4 center-align'>
+          <img class='intro-image' src={PineappleLogo} />
+          <div style={{color: 'white', fontWeight: 'bold', display: 'inline-block', fontSize: '3vw'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
         </div>
-        <div class='col m7 s12'>
+        <div class='col m8 s12'>
           <HeaderAction />
         </div>
       </div>
@@ -52,16 +46,12 @@ class Header extends React.Component {
 export default class Introduction extends React.Component {
   render () {
     return (
-      <div class='introduction-page' style={styleBackground}>
+      <div class='introduction-page' style={{backgroundImage: `url(${PineappleBkgd})`}}>
         <Header />
         <div class='row'>
-          <div class='col m2'></div>
-          <div class='col m8'>
-            <h1 style={{textAlign: 'center'}}>Providing a restaurant <br />with new solutions<span class='indigo-text text-darken-4'>.</span></h1>
-          </div>
-          <div class='col m2'></div>
+            <p class='intro-providing-text'>Providing a restaurant <br />with new solutions<span class='indigo-text text-darken-4'>.</span></p>
+            <p class='intro-fast-text'>Faster business growth with new & <br />returning customers</p>
         </div>
-        <h5 style={{textAlign: 'center', color: 'grey'}}>Faster business growth with new & <br />returning customers</h5>
       </div>
     )
   }
