@@ -1,0 +1,299 @@
+/* code that is here, until the first @media block, will apply to any screen size */
+#somethingorother {
+  width: 800px; }
+
+.introduction-page {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0; }
+
+.col {
+  padding: 0 !important; }
+
+.intro-providing-text {
+  text-align: center;
+  font-weight: bold; }
+
+.intro-fast-text {
+  text-align: center;
+  font-weight: bold;
+  color: grey; }
+
+@media screen and (max-width: 320px) {
+  /* comes into effect for screens less than or equal to 320 pixels */
+  #somethingorother {
+    width: 120px; }
+  .intro-image {
+    width: 13vw; }
+  .introduction-page {
+    height: 450px; }
+  .header-text {
+    font-size: 3.5vw; }
+  .intro-providing-text {
+    font-size: 6vw; }
+  .intro-fast-text {
+    font-size: 4.5vw; } }
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+  #somethingorother {
+    width: 320px; }
+  .intro-image {
+    width: 13vw; }
+  .introduction-page {
+    height: 450px; }
+  .header-text {
+    font-size: 3.5vw; }
+  .intro-providing-text {
+    font-size: 6vw; }
+  .intro-fast-text {
+    font-size: 4.5vw; } }
+
+@media screen and (min-width: 481px) {
+  /* comes into effect for screens larger than or equal to 481 pixels */
+  #somethingorother {
+    width: 480px; }
+  .intro-image {
+    width: 7vw; }
+  .introduction-page {
+    height: 985px; }
+  .header-text {
+    font-size: 2.5vw; }
+  .intro-providing-text {
+    font-size: 4.5vw; }
+  .intro-fast-text {
+    font-size: 2vw; } }
+
+/* code that is here will apply to any screen size */
+.customer-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  margin: 0;
+  overflow-x: hidden; }
+
+.customer-acquire {
+  font-weight: bold;
+  text-align: center; }
+
+.customer-reach {
+  text-align: center;
+  color: grey; }
+
+@media screen and (max-width: 320px) {
+  .customer-page {
+    height: 450px; }
+  .customer-text-container {
+    padding: 5%; }
+  .customer-reach {
+    font-size: 4vw; }
+  .customer-acquire {
+    font-size: 7vw; }
+  div {
+    font-weight: bold;
+    margin-left: 3vw;
+    text-align: center;
+    font-size: 3.5vw; } }
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+  .customer-acquire {
+    font-size: 7vw; }
+  .customer-text-container {
+    padding: 5%; }
+  .customer-reach {
+    font-size: 4vw; }
+  .customer-page {
+    height: 450px; }
+  .customer-check i {
+    font-size: 5vw; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    text-align: center;
+    font-size: 3.5vw; } }
+
+@media screen and (max-width: 700px) {
+  .order-online-image {
+    display: none; } }
+
+@media screen and (min-width: 700px) {
+  .customer-acquire {
+    font-size: 5vw; }
+  .customer-page {
+    height: 985px; }
+  .customer-reach {
+    font-size: 2vw; }
+  .customer-text-container {
+    padding: 10%; }
+  .customer-check i {
+    font-size: 3.5vw; }
+  .customer-check div {
+    margin-left: 3vw;
+    text-align: center;
+    font-size: 2vw; }
+  .order-online-image {
+    width: 500px;
+    top: 350px;
+    right: 40px;
+    position: absolute; } }
+
+/* code that is here will apply to any screen size */
+.loyalty-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  opacity: 0.8; }
+
+.loyalty-text {
+  text-align: center;
+  margin-bottom: 0; }
+
+.loyalty-marketing-text {
+  color: grey;
+  text-align: center;
+  margin: 20px; }
+
+@media screen and (max-width: 480px) {
+  .loyalty-image {
+    display: none; }
+  .loyalty-page {
+    height: 600px; }
+  .loyalty-text {
+    font-size: 8vw; }
+  .loyalty-marketing-text {
+    font-size: 5vw; }
+  .loyalty-text-container {
+    padding: 5%; } }
+
+@media screen and (max-width: 600px) {
+  .loyalty-image {
+    display: none; }
+  .loyalty-page {
+    height: 600px; }
+  .loyalty-text {
+    font-size: 8vw; }
+  .loyalty-marketing-text {
+    font-size: 5vw; }
+  .loyalty-text-container {
+    padding: 5%; } }
+
+@media screen and (min-width: 600px) {
+  .loyalty-page {
+    height: 980px; }
+  .loyalty-image {
+    position: absolute;
+    height: 600px;
+    bottom: 0; }
+  .loyalty-text {
+    font-size: 5vw; }
+  .loyalty-marketing-text {
+    font-size: 3vw; }
+  .loyalty-page {
+    height: 980px; }
+  .loyalty-text-container {
+    padding: 5%; } }
+
+/* code that is here will apply to any screen size */
+.tracking-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  opacity: 0.8; }
+
+.tracking-text {
+  text-align: center;
+  margin-bottom: 0; }
+
+.tracking-marketing-text {
+  text-align: center;
+  color: grey;
+  margin: 20px; }
+
+@media screen and (max-width: 480px) {
+  .tracking-page {
+    background-position: -1000px;
+    background-color: #F5F5F5;
+    height: 400px; }
+  .tracking-text-container {
+    padding: 5%; }
+  .tracking-text {
+    font-size: 7.5vw; }
+  .tracking-marketing-text {
+    font-size: 5vw; } }
+
+@media screen and (max-width: 600px) {
+  .tracking-page {
+    background-position: -1000px;
+    background-color: #F5F5F5;
+    height: 400px; }
+  .tracking-text-container {
+    padding: 5%; }
+  .tracking-text {
+    font-size: 7.5vw; }
+  .tracking-marketing-text {
+    font-size: 5vw; } }
+
+@media screen and (min-width: 600px) {
+  .tracking-page {
+    height: 980px; }
+  .tracking-text-container {
+    padding: 10%; }
+  .tracking-text {
+    font-size: 4.5vw; }
+  .tracking-marketing-text {
+    font-size: 3vw; } }
+
+/* code that is here will apply to any screen size */
+.request-page {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  opacity: 0.8; }
+
+.request-header {
+  font-weight: bold;
+  margin-bottom: 0; }
+
+.request-text-container {
+  padding: 5%; }
+
+.request-form-container label {
+  font-weight: 300;
+  color: black; }
+
+@media screen and (max-width: 480px) {
+  .request-page {
+    height: 550px; }
+  .request-header {
+    font-size: 7.5vw; }
+  .request-form-container label {
+    font-size: 5vw; } }
+
+@media screen and (max-width: 600px) {
+  .request-page {
+    height: 550px; }
+  .request-header {
+    font-size: 7.5vw; }
+  .request-form-container label {
+    font-size: 5vw; } }
+
+@media screen and (min-width: 600px) {
+  .request-page {
+    height: 980px; }
+  .request-header {
+    font-size: 4vw; }
+  .request-form-container label {
+    font-size: 3vw; } }
+
+/* code that is here will apply to any screen size */
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
