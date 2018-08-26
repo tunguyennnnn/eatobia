@@ -20,7 +20,7 @@ class HeaderAction extends React.Component {
     return (
       <div class='indigo-text text-darken-4 bottom-align header-text' style={{position: 'relative', height: '12vw'}}>
         <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
-          <div class='col s1 m2' />
+          <div class='col s1 m1' />
           <div class='col s4 m4'>
             <a class='dropdown-trigger' style={{textDecoration: 'none', color: '#1a237e'}} data-beloworigin='true' href='#' data-activates='dropdown1' ref={(el) => this.dropdownEl = el}>
               <span>Our Product<i class='material-icons dropdown-icon'>expand_more</i></span>
