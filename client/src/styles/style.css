@@ -1,4 +1,3 @@
-/* code that is here, until the first @media block, will apply to any screen size */
 .introduction-page {
   background-position: center;
   background-repeat: no-repeat;
@@ -9,6 +8,7 @@
 .col {
   padding: 0 !important;
 }
+
 .intro-providing-text {
   text-align: center;
   font-weight: bold;
@@ -21,7 +21,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
+
   .intro-image {
     width: 13vw;
     padding-top: 10px;
@@ -43,10 +43,12 @@
     font-size: 4.5vw;
   }
 }
+
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
+
   .intro-image {
     width: 13vw;
+    padding-top: 10px;
   }
 
   .introduction-page {
@@ -65,10 +67,60 @@
     font-size: 4.5vw;
   }
 }
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
   .intro-image {
     width: 7vw;
+    padding-top: 10px;
+  }
+
+  .introduction-page {
+    height: 414px;
+  }
+
+  .header-text {
+    font-size: 2.5vw;
+  }
+
+  .intro-providing-text {
+    font-size: 4.25vw;
+  }
+
+  .intro-fast-text {
+    font-size: 2.25vw;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 812px) {
+
+  .intro-image {
+    width: 7vw;
+    padding-top: 10px;
+  }
+
+  .introduction-page {
+    height: 414px;
+  }
+
+  .header-text {
+    font-size: 2.5vw;
+  }
+
+  .intro-providing-text {
+    font-size: 4.25vw;
+  }
+
+  .intro-fast-text {
+    font-size: 2.25vw;
+  }
+}
+
+@media screen and (min-width: 813px) {
+
+  .intro-image {
+    width: 7vw;
+    padding-top: 10px;
   }
 
   .introduction-page {
@@ -80,12 +132,10 @@
   }
 
   .intro-providing-text {
-    font-size: 4.5vw;
+    font-size: 4.25vw;
   }
 
   .intro-fast-text {
-    font-size: 2vw;
+    font-size: 2.25vw;
   }
 }
-
-/* code that is here will apply to any screen size */

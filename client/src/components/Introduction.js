@@ -9,11 +9,11 @@ class HeaderAction extends React.Component {
         <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
           <div class='col s1 m2'>
           </div>
-          <div class='col s4 m4'>
+          <div class='col s3 m3'>
             <span>Our Product</span>
-            <i class="material-icons">expand_more</i>
+            <i class="small material-icons">expand_more</i>
           </div>
-          <div class='col s1 m1'>
+          <div class='col s2 m2'>
             <span>Blog</span>
           </div>
           <div class='col s2 m2'>
