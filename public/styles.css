@@ -29,7 +29,6 @@ body {
     color: white !important; }
 
 @media screen and (max-width: 320px) {
-  /* comes into effect for screens less than or equal to 320 pixels */
   .intro-image {
     width: 13vw;
     padding-top: 10px; }
@@ -47,9 +46,9 @@ body {
     font-size: 4.5vw; } }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
-  /* comes into effect for screens between 321 and 480 pixels (inclusive) */
   .intro-image {
-    width: 13vw; }
+    width: 13vw;
+    padding-top: 10px; }
   .introduction-page {
     height: 667px; }
   .header-text {
@@ -63,110 +62,187 @@ body {
   .intro-fast-text {
     font-size: 4.5vw; } }
 
-@media screen and (min-width: 481px) {
-  /* comes into effect for screens larger than or equal to 481 pixels */
+@media screen and (min-width: 568px) and (max-width: 768px) {
   .intro-image {
-    width: 7vw; }
+    width: 7vw;
+    padding-top: 10px; }
+  .introduction-page {
+    height: 414px; }
+  .header-text {
+    font-size: 2.5vw; }
+  .intro-providing-text {
+    font-size: 4.25vw; }
+  .intro-fast-text {
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 769px) and (max-width: 812px) {
+  .intro-image {
+    width: 7vw;
+    padding-top: 10px; }
+  .introduction-page {
+    height: 414px; }
+  .header-text {
+    font-size: 2.5vw; }
+  .intro-providing-text {
+    font-size: 4.25vw; }
+  .intro-fast-text {
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 813px) {
+  .intro-image {
+    width: 7vw;
+    padding-top: 10px; }
   .introduction-page {
     height: 985px; }
   .header-text {
     font-size: 2.5vw; }
   .intro-providing-text {
-    font-size: 4.5vw; }
+    font-size: 4.25vw; }
   .dropdown-icon {
     position: absolute;
     bottom: 0;
     font-size: 3.5vw; }
   .intro-fast-text {
-    font-size: 2vw; } }
-
-/* code that is here will apply to any screen size */
+    font-size: 2.25vw; } }
 .customer-page {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  opacity: 0.8;
   margin: 0;
   overflow-x: hidden; }
+
+.customer-reach {
+  color: grey;
+  font-weight: bold; }
 
 .customer-acquire {
   font-weight: bold; }
 
-.customer-reach {
-  color: grey; }
-
 @media screen and (max-width: 320px) {
+  .order-online-image {
+    display: none; }
   .customer-page {
     height: 585px; }
   .customer-text-container {
     padding: 5%; }
   .customer-reach {
     font-size: 4vw;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .customer-acquire {
     font-size: 8vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
     margin-left: 0px;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .customer-check i {
     font-size: 20px; }
-  div {
+  .customer-check div {
     font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+  .order-online-image {
+    display: none; }
   .customer-page {
-    height: 667px; }
+    height: 668px; }
   .customer-text-container {
     padding: 5%; }
   .customer-reach {
-    font-size: 5vw;
-    width: 400px;
-    text-align: left; }
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold; }
   .customer-acquire {
     font-size: 8vw;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 350px;
+    margin-left: 0px;
+    font-weight: bold; }
+  .customer-check i {
+    font-size: 5vw; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 3.5vw; } }
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .order-online-image {
+    display: none; }
+  .customer-page {
+    height: 435px; }
+  .customer-text-container {
+    padding: 5%; }
+  .customer-reach {
+    font-size: 2.25vw;
+    text-align: left; }
+  .customer-acquire {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
+  .customer-check i {
+    font-size: 20px; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 769px) and (max-width: 812px) {
+  .order-online-image {
+    display: none; }
+  .customer-page {
+    height: 475px; }
+  .customer-text-container {
+    padding: 5%; }
+  .customer-reach {
+    font-size: 2.25vw;
+    text-align: left; }
+  .customer-acquire {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 0px;
     text-align: left; }
   .customer-check i {
     font-size: 25px; }
-  div {
+  .customer-check div {
     font-weight: bold;
     margin-left: 3vw;
-    font-size: 4vw; } }
+    font-size: 2.25vw; } }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 813px) {
   .order-online-image {
-    display: none; } }
-
-@media screen and (min-width: 701px) {
-  .customer-acquire {
-    font-size: 5vw;
-    text-align: center; }
+    width: 600px;
+    top: 400px;
+    right: 0;
+    position: absolute; }
   .customer-page {
     height: 985px; }
-  .customer-reach {
-    font-size: 2vw;
-    text-align: center; }
   .customer-text-container {
     padding: 10%; }
+  .customer-reach {
+    font-size: 2vw;
+    text-align: left; }
+  .customer-acquire {
+    font-size: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
   .customer-check i {
-    font-size: 3.5vw; }
+    font-size: 3.25vw; }
   .customer-check div {
+    font-weight: bold;
     margin-left: 3vw;
-    font-size: 2vw; }
-  .order-online-image {
-    width: 550px;
-    top: 425px;
-    right: 150px;
-    position: absolute; } }
-
-/* code that is here will apply to any screen size */
+    font-size: 2vw; } }
 .loyalty-page {
   position: relative;
   background-position: center;
@@ -176,13 +252,12 @@ body {
   opacity: 0.8;
   overflow-x: hidden; }
 
-.loyalty-text {
-  text-align: center;
-  margin-bottom: 0; }
-
 .loyalty-reach {
   color: grey;
-  text-align: center; }
+  font-weight: bold; }
+
+.loyalty-text {
+  font-weight: bold; }
 
 @media screen and (max-width: 320px) {
   .loyalty-image {
@@ -193,12 +268,17 @@ body {
     padding: 5%; }
   .loyalty-reach {
     font-size: 4vw;
-    width: 200px; }
+    text-align: center;
+    font-weight: bold; }
   .loyalty-text {
     font-size: 8vw;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0px; }
+    width: 250px;
+    margin-left: 0px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: bold; }
   .customer-check i {
     font-size: 20px; }
   div {
@@ -210,47 +290,100 @@ body {
   .loyalty-image {
     display: none; }
   .loyalty-page {
-    height: 667px; }
+    height: 668px; }
   .loyalty-text-container {
     padding: 5%; }
   .loyalty-reach {
-    font-size: 5vw;
-    width: 300px; }
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold; }
   .loyalty-text {
     font-size: 8vw;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 300px;
-    margin-left: 0px; }
+    margin-left: 0px;
+    font-weight: bold; }
   .customer-check i {
-    font-size: 25px; }
-  div {
+    font-size: 5vw; }
+  .customer-check div {
     font-weight: bold;
     margin-left: 3vw;
-    font-size: 4vw; } }
+    font-size: 3.5vw; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 568px) and (max-width: 768px) {
   .loyalty-image {
-    display: none; } }
-
-@media screen and (min-width: 601px) {
-  .loyalty-text {
-    font-size: 5vw; }
+    display: none; }
   .loyalty-page {
-    height: 985px; }
-  .loyalty-reach {
-    font-size: 2vw; }
+    height: 445px; }
   .loyalty-text-container {
-    padding: 10%; }
+    padding: 5%; }
+  .loyalty-reach {
+    font-size: 2.25vw;
+    width: 260px;
+    text-align: left; }
+  .loyalty-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
   .customer-check i {
-    font-size: 3.5vw; }
+    font-size: 20px; }
   .customer-check div {
+    font-weight: bold;
     margin-left: 3vw;
-    font-size: 2vw; }
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 769px) and (max-width: 812px) {
+  .loyalty-image {
+    display: none; }
+  .loyalty-page {
+    height: 485px; }
+  .loyalty-text-container {
+    padding: 5%; }
+  .loyalty-reach {
+    font-size: 2.25vw;
+    width: 300px;
+    padding-right: 20px;
+    text-align: left; }
+  .loyalty-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
+  .customer-check i {
+    font-size: 25px; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 813px) {
   .loyalty-image {
     position: absolute;
     height: 600px;
-    bottom: 0; } }
+    bottom: 0; }
+  .loyalty-page {
+    height: 985px; }
+  .loyalty-text-container {
+    padding: 10%; }
+  .loyalty-reach {
+    font-size: 2vw;
+    text-align: left; }
+  .loyalty-text {
+    font-size: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
+  .customer-check i {
+    font-size: 3.25vw; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 2vw; } }
 
 /* code that is here will apply to any screen size */
 .tracking-page {
@@ -261,84 +394,121 @@ body {
   margin: 0;
   opacity: 0.8; }
 
-.tracking-text {
-  margin-bottom: 0; }
-
 .tracking-reach {
-  text-align: center;
-  color: grey; }
+  color: grey;
+  font-weight: bold; }
+
+.tracking-text {
+  font-weight: bold; }
 
 @media screen and (max-width: 320px) {
   .tracking-page {
-    height: 585px;
-    opacity: 0.8; }
+    height: 585px; }
   .tracking-text-container {
     padding: 5%; }
   .tracking-reach {
     font-size: 4vw;
-    width: 200px; }
+    text-align: center;
+    font-weight: bold; }
   .tracking-text {
     font-size: 8vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 270px;
     margin-left: 0px;
-    text-align: center; }
+    text-align: center;
+    font-weight: bold; }
   .customer-check i {
     font-size: 20px; }
-  div {
+  .customer-check div {
     font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .tracking-page {
-    background-color: #F5F5F5;
-    height: 668px;
-    opacity: 0.8; }
+    height: 668px; }
   .tracking-text-container {
     padding: 5%; }
+  .tracking-reach {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold; }
   .tracking-text {
-    font-size: 7.5vw;
+    font-size: 8vw;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 350px;
     margin-left: 0px;
-    text-align: left; }
-  .tracking-reach {
-    font-size: 5vw;
-    width: 300px; }
+    font-weight: bold; }
   .customer-check i {
-    font-size: 25px; }
-  div {
+    font-size: 5vw; }
+  .customer-check div {
     font-weight: bold;
     margin-left: 3vw;
-    font-size: 4vw; } }
+    font-size: 3.5vw; } }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 568px) and (max-width: 768px) {
   .tracking-page {
-    background-color: #F5F5F5; }
+    height: 414px; }
   .tracking-text-container {
     padding: 5%; }
-  .tracking-text {
-    font-size: 7.5vw;
-    text-align: center; }
   .tracking-reach {
-    font-size: 5vw; } }
+    font-size: 2.25vw;
+    text-align: left; }
+  .tracking-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
+  .customer-check i {
+    font-size: 20px; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 2.25vw; } }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 769px) and (max-width: 812px) {
   .tracking-page {
-    height: 980px; }
+    height: 455px; }
+  .tracking-text-container {
+    padding: 5%; }
+  .tracking-reach {
+    font-size: 2.25vw;
+    text-align: left; }
+  .tracking-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
+  .customer-check i {
+    font-size: 25px; }
+  .customer-check div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 2.25vw; } }
+
+@media screen and (min-width: 813px) {
+  .tracking-page {
+    height: 985px; }
   .tracking-text-container {
     padding: 10%; }
+  .tracking-reach {
+    font-size: 2vw;
+    text-align: left; }
   .tracking-text {
     font-size: 4.5vw;
-    text-align: center; }
-  .tracking-reach {
-    font-size: 2vw; }
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left; }
   .customer-check i {
-    font-size: 3.5vw; }
+    font-size: 3.25vw; }
   .customer-check div {
+    font-weight: bold;
     margin-left: 3vw;
     font-size: 2vw; } }
 
@@ -372,23 +542,33 @@ body {
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
   .request-page {
-    height: 667px; }
+    height: 668px; }
   .request-header {
     font-size: 7.5vw; }
   .request-form-container label {
     font-size: 5vw; } }
 
-@media screen and (max-width: 600px) {
-  .request-header {
-    font-size: 7.5vw; }
-  .request-form-container label {
-    font-size: 5vw; } }
-
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 568px) and (max-width: 768px) {
   .request-page {
-    height: 980px; }
+    height: 550px; }
   .request-header {
-    font-size: 4vw; }
+    font-size: 5vw; }
+  .request-form-container label {
+    font-size: 3vw; } }
+
+@media screen and (min-width: 569px) and (max-width: 812px) {
+  .request-page {
+    height: 575px; }
+  .request-header {
+    font-size: 5vw; }
+  .request-form-container label {
+    font-size: 3vw; } }
+
+@media screen and (min-width: 813px) {
+  .request-page {
+    height: 985px; }
+  .request-header {
+    font-size: 5.5vw; }
   .request-form-container label {
     font-size: 3vw; } }
 

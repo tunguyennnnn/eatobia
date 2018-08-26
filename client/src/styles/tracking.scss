@@ -7,20 +7,19 @@
   opacity: 0.8;
 }
 
-.tracking-text {
-  margin-bottom: 0;
+.tracking-reach {
+  color: grey;
+  font-weight: bold;
 }
 
-.tracking-reach {
-  text-align: center;
-  color: grey;
+.tracking-text {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 320px) {
 
   .tracking-page {
     height: 585px;
-    opacity: 0.8;
   }
 
   .tracking-text-container {
@@ -29,7 +28,8 @@
 
   .tracking-reach {
     font-size: 4vw;
-    width: 200px;
+    text-align: center;
+    font-weight: bold;
   }
 
   .tracking-text {
@@ -39,99 +39,159 @@
     width: 270px;
     margin-left: 0px;
     text-align: center;
-  }
-
-  .customer-check i {
-    font-size: 20px;
-  }
-
-  div {
     font-weight: bold;
-    margin-left: 3vw;
-    font-size: 3.5vw;
+  }
+
+  .customer-check {
+    i {
+      font-size: 20px;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 3.5vw;
+    }
   }
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
 
   .tracking-page {
-    background-color: #F5F5F5;
     height: 668px;
-    opacity: 0.8;
   }
 
   .tracking-text-container {
     padding: 5%;
   }
 
+  .tracking-reach {
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
+  }
+
   .tracking-text {
-    font-size: 7.5vw;
+    font-size: 8vw;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 400px;
+    width: 350px;
+    margin-left: 0px;
+    font-weight: bold;
+  }
+
+  .customer-check {
+    i {
+      font-size: 5vw;
+    }
+
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 3.5vw;
+    }
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
+  .tracking-page {
+    height: 414px;
+  }
+
+  .tracking-text-container {
+    padding: 5%;
+  }
+
+  .tracking-reach {
+    font-size: 2.25vw;
+    text-align: left;
+  }
+
+  .tracking-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 0px;
     text-align: left;
   }
 
-  .tracking-reach {
-    font-size: 5vw;
-    width: 300px;
-  }
-
-  .customer-check i {
-    font-size: 25px;
-  }
-
-  div {
-    font-weight: bold;
-    margin-left: 3vw;
-    font-size: 4vw;
+  .customer-check {
+    i {
+      font-size: 20px;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 2.25vw;
+    }
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 769px) and (max-width: 812px) {
+
   .tracking-page {
-    background-color: #F5F5F5;
+    height: 455px;
   }
 
   .tracking-text-container {
     padding: 5%;
   }
 
-  .tracking-text {
-    font-size: 7.5vw;
-    text-align: center;
+  .tracking-reach {
+    font-size: 2.25vw;
+    text-align: left;
   }
 
-  .tracking-reach {
-    font-size: 5vw;
+  .tracking-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .customer-check {
+    i {
+      font-size: 25px;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 2.25vw;
+    }
   }
 }
 
-@media screen and (min-width: 601px) {
+@media screen and (min-width: 813px) {
+
   .tracking-page {
-    height: 980px;
+    height: 985px;
   }
 
   .tracking-text-container {
     padding: 10%;
   }
 
-  .tracking-text {
-    font-size: 4.5vw;
-    text-align: center;
-  }
-
   .tracking-reach {
     font-size: 2vw;
+    text-align: left;
+  }
+
+  .tracking-text {
+    font-size: 4.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
   }
 
   .customer-check {
     i {
-      font-size: 3.5vw;
+      font-size: 3.25vw;
     }
-
     div {
+      font-weight: bold;
       margin-left: 3vw;
       font-size: 2vw;
     }

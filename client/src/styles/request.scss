@@ -24,6 +24,7 @@
 }
 
 @media screen and (max-width: 320px) {
+
   .request-page {
     height: 585px;
   }
@@ -40,8 +41,9 @@
 }
 
 @media screen and (min-width: 321px) and (max-width: 480px) {
+
   .request-page {
-    height: 667px;
+    height: 668px;
   }
 
   .request-header {
@@ -55,25 +57,48 @@
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
+  .request-page {
+    height: 550px;
+  }
 
   .request-header {
-    font-size: 7.5vw;
+    font-size: 5vw;
   }
 
   .request-form-container {
     label {
-      font-size: 5vw;
+      font-size: 3vw;
     }
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 569px) and (max-width: 812px) {
+
   .request-page {
-    height: 980px;
+    height: 575px;
   }
+
   .request-header {
-    font-size: 4vw;
+    font-size: 5vw;
+  }
+
+  .request-form-container {
+    label {
+      font-size: 3vw;
+    }
+  }
+}
+
+@media screen and (min-width: 813px) {
+
+  .request-page {
+    height: 985px;
+  }
+
+  .request-header {
+    font-size: 5.5vw;
   }
 
   .request-form-container {

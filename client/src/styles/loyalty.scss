@@ -8,14 +8,13 @@
   overflow-x: hidden;
 }
 
-.loyalty-text {
-  text-align: center;
-  margin-bottom: 0;
-}
-
 .loyalty-reach {
   color: grey;
-  text-align: center;
+  font-weight: bold;
+}
+
+.loyalty-text {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 320px) {
@@ -34,14 +33,19 @@
 
   .loyalty-reach {
     font-size: 4vw;
-    width: 200px;
+    text-align: center;
+    font-weight: bold;
   }
 
   .loyalty-text {
     font-size: 8vw;
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 250px;
     margin-left: 0px;
+    padding-right: 20px;
+    text-align: center;
+    font-weight: bold;
   }
 
   .customer-check i {
@@ -62,7 +66,7 @@
   }
 
   .loyalty-page {
-    height: 667px;
+    height: 668px;
   }
 
   .loyalty-text-container {
@@ -70,69 +74,153 @@
   }
 
   .loyalty-reach {
-    font-size: 5vw;
-    width: 300px;
+    font-size: 4vw;
+    text-align: center;
+    font-weight: bold;
   }
 
   .loyalty-text {
     font-size: 8vw;
+    text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    width: 300px;
     margin-left: 0px;
-  }
-
-  .customer-check i {
-    font-size: 25px;
-  }
-
-  div {
     font-weight: bold;
-    margin-left: 3vw;
-    font-size: 4vw;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .loyalty-image {
-    display: none
-  }
-}
-
-@media screen and (min-width: 601px) {
-
-  .loyalty-text {
-    font-size: 5vw
-  }
-  .loyalty-page {
-    height: 985px;
-  }
-
-  .loyalty-reach {
-    font-size: 2vw;
-  }
-
-  .loyalty-text-container {
-    padding: 10%;
   }
 
   .customer-check {
     i {
-      font-size: 3.5vw;
+      font-size: 5vw;
     }
 
     div {
+      font-weight: bold;
       margin-left: 3vw;
-      font-size: 2vw;
+      font-size: 3.5vw;
     }
   }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+
+  .loyalty-image {
+    display: none;
+  }
+
+  .loyalty-page {
+    height: 445px;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+  }
+
+  .loyalty-reach {
+    font-size: 2.25vw;
+    width: 260px;
+    text-align: left;
+  }
+
+  .loyalty-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .customer-check {
+    i {
+      font-size: 20px;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 2.25vw;
+    }
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 812px) {
+
+  .loyalty-image {
+    display: none;
+  }
+
+  .loyalty-page {
+    height: 485px;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+  }
+
+  .loyalty-reach {
+    font-size: 2.25vw;
+    width: 300px;
+    padding-right: 20px;
+    text-align: left;
+  }
+
+  .loyalty-text {
+    font-size: 4.25vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .customer-check {
+    i {
+      font-size: 25px;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 2.25vw;
+    }
+  }
+}
+
+@media screen and (min-width: 813px) {
 
   .loyalty-image {
     position: absolute;
     height: 600px;
     bottom: 0;
   }
-}
 
+  .loyalty-page {
+    height: 985px;
+  }
+
+  .loyalty-text-container {
+    padding: 10%;
+  }
+
+  .loyalty-reach {
+    font-size: 2vw;
+    text-align: left;
+  }
+
+  .loyalty-text {
+    font-size: 5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    text-align: left;
+  }
+
+  .customer-check {
+    i {
+      font-size: 3.25vw;
+    }
+    div {
+      font-weight: bold;
+      margin-left: 3vw;
+      font-size: 2vw;
+    }
+  }
+}
 
 /* code that is here will apply to any screen size */

@@ -11,11 +11,6 @@ export default class Loyalty extends React.Component {
     return (
       <div class='loyalty-page' style={styleBackground}>
         <div class='row'>
-          <div class='col m6 s0'>
-            <div><img class='loyalty-image' src={Screen} /></div>
-          </div>
-        </div>
-        <div class='row'>
           <div class='col m4 s0'></div>
           <div class='col m8 s12'>
             <div class='loyalty-text-container'>
@@ -65,6 +60,11 @@ export default class Loyalty extends React.Component {
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+        <div class='row'>
+          <div class='col m6 s0'>
+            <div><img class='loyalty-image' src={Screen} /></div>
           </div>
         </div>
       </div>

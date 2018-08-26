@@ -39,7 +39,7 @@ class HeaderAction extends React.Component {
               </a></li>
             </ul>
           </div>
-          <div class='col s1 m1'>
+          <div class='col s2 m2'>
             <span>Blog</span>
           </div>
           <div class='col s2 m2'>
