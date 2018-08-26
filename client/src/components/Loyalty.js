@@ -16,8 +16,8 @@ export default class Loyalty extends React.Component {
           </div>
         </div>
         <div class='row'>
-          <div class='col m4 s2'></div>
-          <div class='col m8 s10'>
+          <div class='col m4 s0'></div>
+          <div class='col m8 s12'>
             <div class='loyalty-text-container'>
               <div class='loyalty-text'>Loyalty & Retention</div>
               <div class='loyalty-reach'>

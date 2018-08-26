@@ -1,17 +1,43 @@
 import React from 'react'
+import {Link} from 'react-scroll'
 import PineappleLogo from '../icons/pineapple-logo.png'
 import PineappleBkgd from '../icons/pexels-photo-139259.jpeg'
 
+
 class HeaderAction extends React.Component {
+  componentDidMount () {
+    $(this.dropdownEl).dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      hover: false,
+      constrainWidth: false,
+      gutter: 0,
+      belowOrigin: false
+    })
+  }
+
   render () {
     return (
       <div class='indigo-text text-darken-4 bottom-align header-text' style={{position: 'relative', height: '12vw'}}>
         <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
-          <div class='col s1 m2'>
-          </div>
+          <div class='col s1 m2' />
           <div class='col s4 m4'>
-            <span>Our Product</span>
-            <i class="material-icons">expand_more</i>
+            <a class='dropdown-trigger' style={{textDecoration: 'none', color: '#1a237e'}} data-beloworigin='true' href='#' data-activates='dropdown1' ref={(el) => this.dropdownEl = el}>
+              <span>Our Product<i class='material-icons dropdown-icon'>expand_more</i></span>
+            </a>
+            <ul id='dropdown1' class='dropdown-content'>
+              <li>
+                <a href='#!'>
+                  <Link to='customer' spy={true} smooth={true} duration={500} >Customer Acquisition</Link>
+                </a>
+              </li>
+              <li><a href='#!'>
+                <Link to='loyalty' spy={true} smooth={true} duration={500} >Loyalty & Retention</Link>
+              </a></li>
+              <li><a href='#!'>
+                <Link to='track' spy={true} smooth={true} duration={500} >Tracking & Automation</Link>
+              </a></li>
+            </ul>
           </div>
           <div class='col s1 m1'>
             <span>Blog</span>

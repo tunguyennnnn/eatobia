@@ -1,4 +1,12 @@
 /* code that is here, until the first @media block, will apply to any screen size */
+
+body {
+  overflow-x: hidden;
+}
+
+.non-margin {
+  margin: 0 !important
+}
 .introduction-page {
   background-position: center;
   background-repeat: no-repeat;
@@ -20,12 +28,20 @@
   color: grey;
 }
 
+.dropdown-content {
+  background-color: #1a237e !important;
+  a {
+    color: white !important;
+  }
+}
+
 @media screen and (max-width: 320px) {
   /* comes into effect for screens less than or equal to 320 pixels */
   .intro-image {
     width: 13vw;
     padding-top: 10px;
   }
+
 
   .introduction-page {
     height: 585px;
@@ -37,6 +53,12 @@
 
   .intro-providing-text {
     font-size: 6vw;
+  }
+
+  .dropdown-icon {
+    position: absolute;
+    bottom: 0;
+    font-size: 5vw;
   }
 
   .intro-fast-text {
@@ -61,6 +83,12 @@
     font-size: 6vw;
   }
 
+  .dropdown-icon {
+    position: absolute;
+    bottom: 0;
+    font-size: 5vw;
+  }
+
   .intro-fast-text {
     font-size: 4.5vw;
   }
@@ -81,6 +109,12 @@
 
   .intro-providing-text {
     font-size: 4.5vw;
+  }
+
+  .dropdown-icon {
+    position: absolute;
+    bottom: 0;
+    font-size: 3.5vw;
   }
 
   .intro-fast-text {
