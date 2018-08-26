@@ -6,7 +6,7 @@ import {MainPage} from './components'
 export default class App extends React.Component {
   render () {
     return (
-      <div>
+      <div style={{marginLeft: '0px'}}>
         <Switch>
           <Route exact path='/' component={MainPage} />
         </Switch>

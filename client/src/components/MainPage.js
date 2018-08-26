@@ -8,7 +8,7 @@ import Request from './Request'
 export default class MainPage extends React.Component {
   render () {
     return (
-      <div>
+      <div style={{marginLeft: '0px'}}>
         <Introduction />
         <Customer />
         <Loyalty />

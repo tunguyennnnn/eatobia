@@ -9,10 +9,11 @@ class HeaderAction extends React.Component {
         <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
           <div class='col s1 m2'>
           </div>
-          <div class='col s3 m3'>
+          <div class='col s4 m4'>
             <span>Our Product</span>
+            <i class="material-icons">expand_more</i>
           </div>
-          <div class='col s2 m2'>
+          <div class='col s1 m1'>
             <span>Blog</span>
           </div>
           <div class='col s2 m2'>
@@ -33,7 +34,7 @@ class Header extends React.Component {
       <div class='row'>
         <div class='col m4 s4 center-align'>
           <img class='intro-image' src={PineappleLogo} />
-          <div style={{color: 'white', fontWeight: 'bold', display: 'inline-block', fontSize: '3vw'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
+          <div style={{color: 'white', fontWeight: 'bold', display: 'inline-block', fontSize: '3vw', marginLeft: '0px'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
         </div>
         <div class='col m8 s12'>
           <HeaderAction />

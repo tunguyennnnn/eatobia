@@ -17,26 +17,44 @@ export default class Customer extends React.Component {
               <span>Reach and engage new customers,<br />automatically</span>
             </div>
             <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle', paddingBottom: '20px'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}>
-                <span>Online ordering integrated on <br /> your website</span>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Online ordering integrated on <br /> your website</span>
+                </div>
               </div>
             </div>
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}} ><span>Create your custome app</span></div>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Create your custom app</span>
+                </div>
+              </div>
             </div>
-            <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}><span>Automated increase in Facebook likes</span></div>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Automated increase in Facebook likes</span>
+                </div>
+              </div>
             </div>
-            <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle', paddingBottom: '35px'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}>
-                <span>Receive orders & table reservations <br /> directly on your smartphone or tablet</span>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle', paddingBottom: '35px'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Receive orders & table reservations <br /> directly on your smartphone or tablet</span>
+                </div>
               </div>
             </div>
           </div>

@@ -1,5 +1,5 @@
 import React from 'react'
-import PineappleBkgd from '../icons/pexels-photo-915016.jpeg'
+import PineappleBkgd from '../icons/eyewear-food-food-photography-1004525.jpg'
 
 const styleBackground = {
   backgroundImage: `url(${PineappleBkgd})`
@@ -9,33 +9,43 @@ export default class Tracking extends React.Component {
   render () {
     return (
       <div class='tracking-page row' style={styleBackground}>
-        <div class='col m5 s0'></div>
         <div class='col m7 s12'>
           <div class='tracking-text-container'>
-            <p class='tracking-text'>Tracking & Automation</p>
-            <p class='tracking-marketing-text'>Automated email marketing</p>
-            <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle'}} class='medium material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}>
-                <span>Track your customer walkthrough rate</span>
-              </div>
+            <div class='tracking-text'>Tracking & Automation</div>
+            <div class='tracking-reach'>
+              <span>Automated email marketing</span>
             </div>
             <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}>
-                <span>Automated  Facebook likes</span>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Track your customer walkthrough rate</span>
+                </div>
               </div>
             </div>
-            <br />
-            <div class='customer-check'>
-              <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
-              <div style={{display: 'inline-block'}}>
-                <span>Automated  Instagram followers</span>
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Automated  Facebook likes</span>
+                </div>
               </div>
             </div>
-            <br />
+            <div class='row'>
+              <div class='customer-check'>
+                <div class='col s2'>
+                  <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
+                </div>
+                <div class='col s10'>
+                  <span>Automated  Instagram followers</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>

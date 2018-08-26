@@ -5,6 +5,7 @@
   background-size: cover;
   margin: 0;
   opacity: 0.8;
+  overflow-x: hidden;
 }
 
 .loyalty-text {
@@ -12,60 +13,120 @@
   margin-bottom: 0;
 }
 
-.loyalty-marketing-text {
+.loyalty-reach {
   color: grey;
   text-align: center;
-  margin: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
   .loyalty-image {
     display: none;
   }
 
   .loyalty-page {
-    height: 600px;
-  }
-
-  .loyalty-text {
-    font-size: 8vw;
-  }
-
-  .loyalty-marketing-text {
-    font-size: 5vw;
+    height: 585px;
   }
 
   .loyalty-text-container {
     padding: 5%;
+  }
+
+  .loyalty-reach {
+    font-size: 4vw;
+    width: 200px;
+  }
+
+  .loyalty-text {
+    font-size: 8vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+  }
+
+  .customer-check i {
+    font-size: 20px;
+  }
+
+  div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+  .loyalty-image {
+    display: none;
+  }
+
+  .loyalty-page {
+    height: 667px;
+  }
+
+  .loyalty-text-container {
+    padding: 5%;
+    padding-left: 0px;
+    margin-left: 0px;
+  }
+
+  .loyalty-reach {
+    font-size: 5vw;
+    width: 300px;
+  }
+
+  .loyalty-text {
+    font-size: 8vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 300px;
+    margin-left: 0px;
+  }
+
+  .customer-check i {
+    font-size: 25px;
+  }
+
+  div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 4vw;
   }
 }
 
 @media screen and (max-width: 600px) {
-
   .loyalty-image {
-    display: none;
-  }
-  .loyalty-page {
-    height: 600px;
-  }
-
-  .loyalty-text {
-    font-size: 8vw;
-  }
-
-  .loyalty-marketing-text {
-    font-size: 5vw;
-  }
-
-  .loyalty-text-container {
-    padding: 5%;
+    display: none
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
+
+  .loyalty-text {
+    font-size: 5vw
+  }
   .loyalty-page {
-    height: 980px;
+    height: 985px;
+  }
+
+  .loyalty-reach {
+    font-size: 2vw;
+  }
+
+  .loyalty-text-container {
+    padding: 10%;
+  }
+
+  .customer-check {
+    i {
+      font-size: 3.5vw;
+    }
+
+    div {
+      margin-left: 3vw;
+      font-size: 2vw;
+    }
   }
 
   .loyalty-image {
@@ -73,22 +134,7 @@
     height: 600px;
     bottom: 0;
   }
-
-  .loyalty-text {
-    font-size: 5vw;
-  }
-
-  .loyalty-marketing-text {
-    font-size: 3vw;
-  }
-
-  .loyalty-page {
-    height: 980px;
-  }
-
-  .loyalty-text-container {
-    padding: 5%;
-  }
 }
+
 
 /* code that is here will apply to any screen size */

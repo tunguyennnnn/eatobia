@@ -8,22 +8,56 @@
 }
 
 .tracking-text {
-  text-align: center;
   margin-bottom: 0;
 }
 
-.tracking-marketing-text {
+.tracking-reach {
   text-align: center;
   color: grey;
-  margin: 20px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 320px) {
 
   .tracking-page {
-    background-position: -1000px;
+    height: 585px;
+    opacity: 0.8;
+  }
+
+  .tracking-text-container {
+    padding: 5%;
+  }
+
+  .tracking-reach {
+    font-size: 4vw;
+    width: 200px;
+  }
+
+  .tracking-text {
+    font-size: 8vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 270px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .customer-check i {
+    font-size: 20px;
+  }
+
+  div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 3.5vw;
+  }
+}
+
+@media screen and (min-width: 321px) and (max-width: 480px) {
+
+  .tracking-page {
     background-color: #F5F5F5;
-    height: 400px;
+    height: 668px;
+    opacity: 0.8;
   }
 
   .tracking-text-container {
@@ -32,18 +66,32 @@
 
   .tracking-text {
     font-size: 7.5vw;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    margin-left: 0px;
+    text-align: left;
   }
 
-  .tracking-marketing-text {
+  .tracking-reach {
     font-size: 5vw;
+    width: 300px;
+  }
+
+  .customer-check i {
+    font-size: 25px;
+  }
+
+  div {
+    font-weight: bold;
+    margin-left: 3vw;
+    font-size: 4vw;
   }
 }
 
 @media screen and (max-width: 600px) {
   .tracking-page {
-    background-position: -1000px;
     background-color: #F5F5F5;
-    height: 400px;
   }
 
   .tracking-text-container {
@@ -52,14 +100,15 @@
 
   .tracking-text {
     font-size: 7.5vw;
+    text-align: center;
   }
 
-  .tracking-marketing-text {
+  .tracking-reach {
     font-size: 5vw;
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
   .tracking-page {
     height: 980px;
   }
@@ -70,10 +119,22 @@
 
   .tracking-text {
     font-size: 4.5vw;
+    text-align: center;
   }
 
-  .tracking-marketing-text {
-    font-size: 3vw;
+  .tracking-reach {
+    font-size: 2vw;
+  }
+
+  .customer-check {
+    i {
+      font-size: 3.5vw;
+    }
+
+    div {
+      margin-left: 3vw;
+      font-size: 2vw;
+    }
   }
 }
 
