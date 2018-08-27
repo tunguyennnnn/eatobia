@@ -21,7 +21,9 @@ export default class MainPage extends React.Component {
         <Element name='track' className='non-margin'>
           <Tracking />
         </Element>
-        <Request />
+        <Element name='request' className='non-margin'>
+          <Request />
+        </Element>
       </div>
     )
   }

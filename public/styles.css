@@ -391,8 +391,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  opacity: 0.8; }
+  margin: 0; }
 
 .tracking-reach {
   color: grey;
@@ -453,7 +452,8 @@ body {
   .tracking-page {
     height: 414px; }
   .tracking-text-container {
-    padding: 5%; }
+    padding: 5%;
+    padding-top: 10%; }
   .tracking-reach {
     font-size: 2.25vw;
     text-align: left; }
@@ -474,7 +474,8 @@ body {
   .tracking-page {
     height: 455px; }
   .tracking-text-container {
-    padding: 5%; }
+    padding: 5%;
+    padding-top: 10%; }
   .tracking-reach {
     font-size: 2.25vw;
     text-align: left; }
@@ -495,7 +496,8 @@ body {
   .tracking-page {
     height: 985px; }
   .tracking-text-container {
-    padding: 10%; }
+    padding: 10%;
+    padding-top: 20%; }
   .tracking-reach {
     font-size: 2vw;
     text-align: left; }

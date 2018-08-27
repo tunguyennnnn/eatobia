@@ -27,14 +27,14 @@ class HeaderAction extends React.Component {
             </a>
             <ul id='dropdown1' class='dropdown-content'>
               <li>
-                <a href='#!'>
+                <a>
                   <Link to='customer' spy={true} smooth={true} duration={500} >Customer Acquisition</Link>
                 </a>
               </li>
-              <li><a href='#!'>
+              <li><a>
                 <Link to='loyalty' spy={true} smooth={true} duration={500} >Loyalty & Retention</Link>
               </a></li>
-              <li><a href='#!'>
+              <li><a>
                 <Link to='track' spy={true} smooth={true} duration={500} >Tracking & Automation</Link>
               </a></li>
             </ul>
@@ -46,7 +46,7 @@ class HeaderAction extends React.Component {
             <span>Pricing</span>
           </div>
           <div class='col s3 m3 center-align' style={{background: '#1a237e', border: 'solid 0', borderRadius: 5, color: 'white', padding: '1vw'}}>
-            Try For Free
+            <Link to='request' spy={true} smooth={true} duration={500} ><span style={{color: 'white'}}>Try For Free</span></Link>
           </div>
         </div>
       </div>
@@ -76,8 +76,8 @@ export default class Introduction extends React.Component {
       <div class='introduction-page' style={{backgroundImage: `url(${PineappleBkgd})`}}>
         <Header />
         <div class='row'>
-            <p class='intro-providing-text'>Providing a restaurant <br />with new solutions<span class='indigo-text text-darken-4'>.</span></p>
-            <p class='intro-fast-text'>Faster business growth with new & <br />returning customers</p>
+          <p class='intro-providing-text'>Providing restaurants <br />with new solutions<span class='indigo-text text-darken-4'>.</span></p>
+          <p class='intro-fast-text'>Faster business growth with new & <br />returning customers</p>
         </div>
       </div>
     )
