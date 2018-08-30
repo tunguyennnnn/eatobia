@@ -21,7 +21,7 @@ export default class Loyalty extends React.Component {
               <br />
               <div class='row'>
                 <div class='customer-check'>
-                  <div class='col s2'>
+                  <div class='col s2 m1'>
                     <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                   </div>
                   <div class='col s10'>
@@ -31,7 +31,7 @@ export default class Loyalty extends React.Component {
               </div>
               <div class='row'>
                 <div class='customer-check'>
-                  <div class='col s2'>
+                  <div class='col s2 m1'>
                     <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                   </div>
                   <div class='col s10'>
@@ -41,7 +41,7 @@ export default class Loyalty extends React.Component {
               </div>
               <div class='row'>
                 <div class='customer-check'>
-                  <div class='col s2'>
+                  <div class='col s2 m1'>
                     <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                   </div>
                   <div class='col s10'>
@@ -51,7 +51,7 @@ export default class Loyalty extends React.Component {
               </div>
               <div class='row'>
                 <div class='customer-check'>
-                  <div class='col s2'>
+                  <div class='col s2 m1'>
                     <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                   </div>
                   <div class='col s10'>

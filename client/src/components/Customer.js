@@ -3,7 +3,7 @@ import PineappleBkgd from '../icons/pexels-photo-174671.jpeg'
 import OnlineOrder from '../icons/online-ordering-system-multi-device-656804e619.png'
 
 const styleBackground = {
-  backgroundImage: `url(${PineappleBkgd})`
+  backgroundImage: `url(${PineappleBkgd})`,
 }
 
 export default class Customer extends React.Component {
@@ -19,7 +19,7 @@ export default class Customer extends React.Component {
             <br />
             <div class='row'>
               <div class='customer-check'>
-                <div class='col s2'>
+                <div class='col s2 m1'>
                   <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                 </div>
                 <div class='col s10'>
@@ -29,7 +29,7 @@ export default class Customer extends React.Component {
             </div>
             <div class='row'>
               <div class='customer-check'>
-                <div class='col s2'>
+                <div class='col s2 m1'>
                   <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                 </div>
                 <div class='col s10'>
@@ -39,7 +39,7 @@ export default class Customer extends React.Component {
             </div>
             <div class='row'>
               <div class='customer-check'>
-                <div class='col s2'>
+                <div class='col s2 m1'>
                   <i style={{verticalAlign: 'middle'}} class='material-icons'>check_circle</i>
                 </div>
                 <div class='col s10'>
@@ -49,7 +49,7 @@ export default class Customer extends React.Component {
             </div>
             <div class='row'>
               <div class='customer-check'>
-                <div class='col s2'>
+                <div class='col s2 m1'>
                   <i style={{verticalAlign: 'middle', paddingBottom: '35px'}} class='material-icons'>check_circle</i>
                 </div>
                 <div class='col s10'>

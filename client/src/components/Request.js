@@ -14,7 +14,7 @@ export default class Request extends React.Component {
           <div class='request-text-container'>
             <p class='request-header'>Request a demo<span class='indigo-text text-darken-4'>.</span></p>
             <br />
-            <form class='request-form-container'>
+            <form class='request-form-container' style={{fontFamily: 'Montserrat, sans-serif'}}>
               <div class='form-group'>
                 <label>Restaurant name</label>
                 <input type='text' name='resturant_name' style={{borderBottom: '1px solid black'}} />

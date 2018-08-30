@@ -4,12 +4,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  opacity: 0.8;
 }
 
 .request-header {
   font-weight: bold;
   margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #464646;
 }
 
 .request-text-container {
@@ -98,7 +99,7 @@
   }
 
   .request-header {
-    font-size: 5.5vw;
+    font-size: 5vw;
   }
 
   .request-form-container {

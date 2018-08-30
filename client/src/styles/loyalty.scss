@@ -4,17 +4,21 @@
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
-  opacity: 0.8;
-  overflow-x: hidden;
 }
 
 .loyalty-reach {
-  color: grey;
-  font-weight: bold;
+  color: #464646;
+  font-family: 'Lato', sans-serif;
 }
 
 .loyalty-text {
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customer-check {
+  span {
+    font-family: 'Lato', sans-serif;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -34,18 +38,18 @@
   .loyalty-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 0px;
   }
 
   .loyalty-text {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
     margin-left: 0px;
     padding-right: 20px;
     text-align: center;
-    font-weight: bold;
   }
 
   .customer-check i {
@@ -53,13 +57,12 @@
   }
 
   div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw;
   }
 }
 
-@media screen and (min-width: 321px) and (max-width: 600px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
 
   .loyalty-image {
     display: none;
@@ -76,7 +79,6 @@
   .loyalty-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
   }
 
   .loyalty-text {
@@ -85,7 +87,6 @@
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
-    font-weight: bold;
   }
 
   .customer-check {
@@ -94,14 +95,13 @@
     }
 
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 3.5vw;
     }
   }
 }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
   .loyalty-image {
     display: none;
@@ -118,7 +118,8 @@
   .loyalty-reach {
     font-size: 2.25vw;
     width: 260px;
-    text-align: left;
+    text-align: center;
+    margin-right: 90px;
   }
 
   .loyalty-text {
@@ -134,7 +135,6 @@
       font-size: 20px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -175,7 +175,6 @@
       font-size: 25px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -200,7 +199,7 @@
 
   .loyalty-reach {
     font-size: 2vw;
-    text-align: left;
+    text-align: center;
   }
 
   .loyalty-text {
@@ -216,9 +215,10 @@
       font-size: 3.25vw;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
-      font-size: 2vw;
+    }
+    span {
+      font-size: 1.75vw;
     }
   }
 }

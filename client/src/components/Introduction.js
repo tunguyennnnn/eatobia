@@ -19,7 +19,7 @@ class HeaderAction extends React.Component {
   render () {
     return (
       <div class='indigo-text text-darken-4 bottom-align header-text' style={{position: 'relative', height: '12vw'}}>
-        <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0}}>
+        <div class='row' style={{position: 'absolute', width: '100%', bottom: 0, padding: '1vw', paddingBottom: 0, fontFamily: 'Lato, sans-serif'}}>
           <div class='col s1 m1' />
           <div class='col s4 m4'>
             <a class='dropdown-trigger' style={{textDecoration: 'none', color: '#1a237e'}} data-beloworigin='true' href='#' data-activates='dropdown1' ref={(el) => this.dropdownEl = el}>
@@ -27,16 +27,22 @@ class HeaderAction extends React.Component {
             </a>
             <ul id='dropdown1' class='dropdown-content'>
               <li>
-                <a>
-                  <Link to='customer' spy={true} smooth={true} duration={500} >Customer Acquisition</Link>
-                </a>
+                <Link to='customer' spy={true} smooth={true} duration={500} >
+                  <a>
+                    Customer Acquisition
+                  </a>
+                </Link>
               </li>
-              <li><a>
-                <Link to='loyalty' spy={true} smooth={true} duration={500} >Loyalty & Retention</Link>
-              </a></li>
-              <li><a>
-                <Link to='track' spy={true} smooth={true} duration={500} >Tracking & Automation</Link>
-              </a></li>
+              <li>
+                <Link to='loyalty' spy={true} smooth={true} duration={500} >
+                  <a>Loyalty & Retention</a>
+                </Link>
+              </li>
+              <li>
+                <Link to='track' spy={true} smooth={true} duration={500} >
+                  <a>Tracking & Automation</a>
+                </Link>
+              </li>
             </ul>
           </div>
           <div class='col s2 m2'>
@@ -45,9 +51,11 @@ class HeaderAction extends React.Component {
           <div class='col s2 m2'>
             <span>Pricing</span>
           </div>
-          <div class='col s3 m3 center-align' style={{background: '#1a237e', border: 'solid 0', borderRadius: 5, color: 'white', padding: '1vw'}}>
-            <Link to='request' spy={true} smooth={true} duration={500} ><span style={{color: 'white'}}>Try For Free</span></Link>
-          </div>
+          <Link to='request' spy={true} smooth={true} duration={500} >
+            <div class='col s3 m3 center-align' style={{background: '#1a237e', border: 'solid 0', borderRadius: 5, color: 'white', padding: '1vw'}}>
+              <span style={{color: 'white'}}>Try For Free</span>
+            </div>
+          </Link>
         </div>
       </div>
     )
@@ -60,7 +68,7 @@ class Header extends React.Component {
       <div class='row'>
         <div class='col m4 s4 center-align'>
           <img class='intro-image' src={PineappleLogo} />
-          <div style={{color: 'white', fontWeight: 'bold', display: 'inline-block', fontSize: '3vw', marginLeft: '0px'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
+          <div style={{color: 'white', fontFamily: 'Montserrat, sans-serif', fontWeight: 'bold', display: 'inline-block', fontSize: '3vw', marginLeft: '0px'}}>Eatobia<span class='indigo-text text-darken-4'>.</span></div>
         </div>
         <div class='col m8 s12'>
           <HeaderAction />

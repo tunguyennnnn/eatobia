@@ -3,18 +3,24 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
   margin: 0;
   overflow-x: hidden;
 }
 
 .customer-reach {
-  color: grey;
-  font-weight: bold;
+  color: #464646;
+  font-family: 'Lato', sans-serif;
 }
 
 .customer-acquire {
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customer-check {
+  span {
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -34,17 +40,15 @@
   .customer-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
   }
 
   .customer-acquire {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
     margin-left: 0px;
     text-align: center;
-    font-weight: bold;
   }
 
   .customer-check {
@@ -52,7 +56,6 @@
       font-size: 20px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 3.5vw;
     }
@@ -76,17 +79,16 @@
   .customer-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
+    margin-left: 40px;
   }
 
   .customer-acquire {
-    font-size: 8vw;
+    font-size: 7.5vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
     margin-left: 0px;
-    font-weight: bold;
   }
 
   .customer-check {
@@ -95,14 +97,13 @@
     }
 
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 3.5vw;
     }
   }
 }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
   .order-online-image {
     display: none
@@ -118,7 +119,8 @@
 
   .customer-reach {
     font-size: 2.25vw;
-    text-align: left;
+    text-align: center;
+    margin-right: 160px;
   }
 
   .customer-acquire {
@@ -134,7 +136,6 @@
       font-size: 20px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -173,7 +174,6 @@
       font-size: 25px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -183,9 +183,9 @@
 @media screen and (min-width: 813px) {
 
   .order-online-image {
-    width: 600px;
+    width: 45vw;
     top: 400px;
-    right: 0;
+    right: 2vw;
     position: absolute;
   }
 
@@ -199,11 +199,11 @@
 
   .customer-reach {
     font-size: 2vw;
-    text-align: left;
+    text-align: center;
   }
 
   .customer-acquire {
-    font-size: 5vw;
+    font-size: 4.8vw;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -215,9 +215,10 @@
       font-size: 3.25vw;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
-      font-size: 2vw;
+    }
+    span {
+      font-size: 1.75vw;
     }
   }
 }

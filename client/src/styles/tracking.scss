@@ -7,12 +7,18 @@
 }
 
 .tracking-reach {
-  color: grey;
-  font-weight: bold;
+  color: #464646;
+  font-family: 'Lato', sans-serif;
 }
 
 .tracking-text {
-  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.customer-check {
+  span {
+    font-family: 'Lato', sans-serif;
+  }
 }
 
 @media screen and (max-width: 320px) {
@@ -28,17 +34,17 @@
   .tracking-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
+    margin-right: 40px;
+    margin-left: 0px;
   }
 
   .tracking-text {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 270px;
     margin-left: 0px;
     text-align: center;
-    font-weight: bold;
   }
 
   .customer-check {
@@ -46,7 +52,6 @@
       font-size: 20px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 3.5vw;
     }
@@ -66,17 +71,16 @@
   .tracking-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold;
+    margin-right: 40px;
   }
 
   .tracking-text {
-    font-size: 8vw;
+    font-size: 7.25vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
     margin-left: 0px;
-    font-weight: bold;
   }
 
   .customer-check {
@@ -85,14 +89,13 @@
     }
 
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 3.5vw;
     }
   }
 }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
 
   .tracking-page {
     height: 414px;
@@ -100,12 +103,13 @@
 
   .tracking-text-container {
     padding: 5%;
-    padding-top: 10%;
   }
 
   .tracking-reach {
     font-size: 2.25vw;
-    text-align: left;
+    text-align: center;
+    margin-right: 250px;
+    width: 300px;
   }
 
   .tracking-text {
@@ -121,7 +125,6 @@
       font-size: 20px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -136,7 +139,6 @@
 
   .tracking-text-container {
     padding: 5%;
-    padding-top: 10%;
   }
 
   .tracking-reach {
@@ -157,7 +159,6 @@
       font-size: 25px;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
       font-size: 2.25vw;
     }
@@ -172,16 +173,15 @@
 
   .tracking-text-container {
     padding: 10%;
-    padding-top: 20%;
   }
 
   .tracking-reach {
     font-size: 2vw;
-    text-align: left;
+    text-align: center;
   }
 
   .tracking-text {
-    font-size: 4.5vw;
+    font-size: 4vw;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -193,9 +193,10 @@
       font-size: 3.25vw;
     }
     div {
-      font-weight: bold;
       margin-left: 3vw;
-      font-size: 2vw;
+    }
+    span {
+      font-size: 1.75vw;
     }
   }
 }
