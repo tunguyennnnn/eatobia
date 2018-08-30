@@ -16,12 +16,12 @@ body {
 
 .intro-providing-text {
   text-align: center;
-  font-weight: bold; }
+  font-family: 'Montserrat', sans-serif; }
 
 .intro-fast-text {
   text-align: center;
-  font-weight: bold;
-  color: grey; }
+  font-family: 'Lato', sans-serif;
+  color: #868686; }
 
 .dropdown-content {
   background-color: #1a237e !important; }
@@ -109,16 +109,19 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.8;
   margin: 0;
   overflow-x: hidden; }
 
 .customer-reach {
-  color: grey;
-  font-weight: bold; }
+  color: #464646;
+  font-family: 'Lato', sans-serif; }
 
 .customer-acquire {
-  font-weight: bold; }
+  font-family: 'Montserrat', sans-serif; }
+
+.customer-check span {
+  font-family: 'Lato', sans-serif;
+  font-weight: 600; }
 
 @media screen and (max-width: 320px) {
   .order-online-image {
@@ -129,20 +132,17 @@ body {
     padding: 5%; }
   .customer-reach {
     font-size: 4vw;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   .customer-acquire {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
     margin-left: 0px;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   .customer-check i {
     font-size: 20px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
@@ -156,23 +156,21 @@ body {
   .customer-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold; }
+    margin-left: 40px; }
   .customer-acquire {
-    font-size: 8vw;
+    font-size: 7.5vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
-    margin-left: 0px;
-    font-weight: bold; }
+    margin-left: 0px; }
   .customer-check i {
     font-size: 5vw; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .order-online-image {
     display: none; }
   .customer-page {
@@ -181,7 +179,8 @@ body {
     padding: 5%; }
   .customer-reach {
     font-size: 2.25vw;
-    text-align: left; }
+    text-align: center;
+    margin-right: 160px; }
   .customer-acquire {
     font-size: 4.25vw;
     margin-top: 20px;
@@ -191,7 +190,6 @@ body {
   .customer-check i {
     font-size: 20px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
@@ -214,15 +212,14 @@ body {
   .customer-check i {
     font-size: 25px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
 @media screen and (min-width: 813px) {
   .order-online-image {
-    width: 600px;
+    width: 45vw;
     top: 400px;
-    right: 0;
+    right: 2vw;
     position: absolute; }
   .customer-page {
     height: 985px; }
@@ -230,9 +227,9 @@ body {
     padding: 10%; }
   .customer-reach {
     font-size: 2vw;
-    text-align: left; }
+    text-align: center; }
   .customer-acquire {
-    font-size: 5vw;
+    font-size: 4.8vw;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -240,24 +237,25 @@ body {
   .customer-check i {
     font-size: 3.25vw; }
   .customer-check div {
-    font-weight: bold;
-    margin-left: 3vw;
-    font-size: 2vw; } }
+    margin-left: 3vw; }
+  .customer-check span {
+    font-size: 1.75vw; } }
 .loyalty-page {
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  opacity: 0.8;
-  overflow-x: hidden; }
+  margin: 0; }
 
 .loyalty-reach {
-  color: grey;
-  font-weight: bold; }
+  color: #464646;
+  font-family: 'Lato', sans-serif; }
 
 .loyalty-text {
-  font-weight: bold; }
+  font-family: 'Montserrat', sans-serif; }
+
+.customer-check span {
+  font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 320px) {
   .loyalty-image {
@@ -269,24 +267,23 @@ body {
   .loyalty-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold; }
+    margin-right: 40px;
+    margin-left: 0px; }
   .loyalty-text {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 250px;
     margin-left: 0px;
     padding-right: 20px;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   .customer-check i {
     font-size: 20px; }
   div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
-@media screen and (min-width: 321px) and (max-width: 600px) {
+@media screen and (min-width: 321px) and (max-width: 480px) {
   .loyalty-image {
     display: none; }
   .loyalty-page {
@@ -295,23 +292,20 @@ body {
     padding: 5%; }
   .loyalty-reach {
     font-size: 4vw;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   .loyalty-text {
     font-size: 8vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
-    margin-left: 0px;
-    font-weight: bold; }
+    margin-left: 0px; }
   .customer-check i {
     font-size: 5vw; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .loyalty-image {
     display: none; }
   .loyalty-page {
@@ -321,7 +315,8 @@ body {
   .loyalty-reach {
     font-size: 2.25vw;
     width: 260px;
-    text-align: left; }
+    text-align: center;
+    margin-right: 90px; }
   .loyalty-text {
     font-size: 4.25vw;
     margin-top: 20px;
@@ -331,7 +326,6 @@ body {
   .customer-check i {
     font-size: 20px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
@@ -356,7 +350,6 @@ body {
   .customer-check i {
     font-size: 25px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
@@ -371,7 +364,7 @@ body {
     padding: 10%; }
   .loyalty-reach {
     font-size: 2vw;
-    text-align: left; }
+    text-align: center; }
   .loyalty-text {
     font-size: 5vw;
     margin-top: 20px;
@@ -381,9 +374,9 @@ body {
   .customer-check i {
     font-size: 3.25vw; }
   .customer-check div {
-    font-weight: bold;
-    margin-left: 3vw;
-    font-size: 2vw; } }
+    margin-left: 3vw; }
+  .customer-check span {
+    font-size: 1.75vw; } }
 
 /* code that is here will apply to any screen size */
 .tracking-page {
@@ -394,11 +387,14 @@ body {
   margin: 0; }
 
 .tracking-reach {
-  color: grey;
-  font-weight: bold; }
+  color: #464646;
+  font-family: 'Lato', sans-serif; }
 
 .tracking-text {
-  font-weight: bold; }
+  font-family: 'Montserrat', sans-serif; }
+
+.customer-check span {
+  font-family: 'Lato', sans-serif; }
 
 @media screen and (max-width: 320px) {
   .tracking-page {
@@ -408,19 +404,18 @@ body {
   .tracking-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold; }
+    margin-right: 40px;
+    margin-left: 0px; }
   .tracking-text {
-    font-size: 8vw;
+    font-size: 7vw;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 270px;
     margin-left: 0px;
-    text-align: center;
-    font-weight: bold; }
+    text-align: center; }
   .customer-check i {
     font-size: 20px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
@@ -432,31 +427,30 @@ body {
   .tracking-reach {
     font-size: 4vw;
     text-align: center;
-    font-weight: bold; }
+    margin-right: 40px; }
   .tracking-text {
-    font-size: 8vw;
+    font-size: 7.25vw;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 350px;
-    margin-left: 0px;
-    font-weight: bold; }
+    margin-left: 0px; }
   .customer-check i {
     font-size: 5vw; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 3.5vw; } }
 
-@media screen and (min-width: 568px) and (max-width: 768px) {
+@media screen and (min-width: 481px) and (max-width: 768px) {
   .tracking-page {
     height: 414px; }
   .tracking-text-container {
-    padding: 5%;
-    padding-top: 10%; }
+    padding: 5%; }
   .tracking-reach {
     font-size: 2.25vw;
-    text-align: left; }
+    text-align: center;
+    margin-right: 250px;
+    width: 300px; }
   .tracking-text {
     font-size: 4.25vw;
     margin-top: 20px;
@@ -466,7 +460,6 @@ body {
   .customer-check i {
     font-size: 20px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
@@ -474,8 +467,7 @@ body {
   .tracking-page {
     height: 455px; }
   .tracking-text-container {
-    padding: 5%;
-    padding-top: 10%; }
+    padding: 5%; }
   .tracking-reach {
     font-size: 2.25vw;
     text-align: left; }
@@ -488,7 +480,6 @@ body {
   .customer-check i {
     font-size: 25px; }
   .customer-check div {
-    font-weight: bold;
     margin-left: 3vw;
     font-size: 2.25vw; } }
 
@@ -496,13 +487,12 @@ body {
   .tracking-page {
     height: 985px; }
   .tracking-text-container {
-    padding: 10%;
-    padding-top: 20%; }
+    padding: 10%; }
   .tracking-reach {
     font-size: 2vw;
-    text-align: left; }
+    text-align: center; }
   .tracking-text {
-    font-size: 4.5vw;
+    font-size: 4vw;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 0px;
@@ -510,9 +500,9 @@ body {
   .customer-check i {
     font-size: 3.25vw; }
   .customer-check div {
-    font-weight: bold;
-    margin-left: 3vw;
-    font-size: 2vw; } }
+    margin-left: 3vw; }
+  .customer-check span {
+    font-size: 1.75vw; } }
 
 /* code that is here will apply to any screen size */
 .request-page {
@@ -520,12 +510,13 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 0;
-  opacity: 0.8; }
+  margin: 0; }
 
 .request-header {
   font-weight: bold;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+  font-family: 'Montserrat', sans-serif;
+  color: #464646; }
 
 .request-text-container {
   padding: 5%; }
@@ -570,7 +561,7 @@ body {
   .request-page {
     height: 985px; }
   .request-header {
-    font-size: 5.5vw; }
+    font-size: 5vw; }
   .request-form-container label {
     font-size: 3vw; } }
 
